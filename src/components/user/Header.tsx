@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           />
           <div className="relative w-full max-w-md md:ml-[5px]">
             <input
-              className="w-[350px] py-2 px-4 pr-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="md:w-[350px] py-2 px-4 pr-12 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Buy Me bao ship 0Đ - Đăng ký ngay!"
               type="text"
             />
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           <a href="/dang-phat-trien" className="hidden lg:inline">Thông Báo</a>
           <a href="/dang-phat-trien" className="hidden lg:inline">Hỗ Trợ</a>
           <a href="/dang-phat-trien" className="hidden lg:inline">Đăng Ký</a>
-          <a href="/dang-phat-trien" className="hidden lg:inline">Đăng Nhập</a>
+          <a href="/dang-nhap" className="hidden lg:inline">Đăng Nhập</a>
         </div>
         {/* Menu chính - Hiển thị dọc trên Mobile */}
         {menuOpen && (
@@ -92,7 +92,7 @@ const Header: React.FC = () => {
                 Đăng Ký
               </button>
             </a>
-            <a href="/dang-phat-trien">
+            <a href="/dang-nhap">
               <button className="bg-white text-black shadow-md pl-[10px] w-full h-[40px]">
                 Đăng Nhập
               </button>
